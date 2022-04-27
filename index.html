@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BFitness</title>
+    <!-- FONT STYLES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- NAVIGATION BAR --> 
+      <div class = 'header'>
+      <nav class="nav">
+        <div class="nav--left">
+          <h1>BFitness</h1>
+        </div>
+        <ul class="nav--right ">
+          <li>
+            <a class="nav__link" href="#section1">Home</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section2">About us</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section3">Memberships</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#section5">Contact</a>
+          </li>
+          <li>
+            <button class="nav--btn btn nav__link">Join now</button>
+          </li>
+          <li class="nav--links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
+        <div class="burger shown">
+          <div class="line1"></div>
+          <div class="line2"></div>
+        </div>
+      </nav>
+
+      <!-- FIRST SECTION -->
+      <section id ='section1' class="first--section section">
+        <div class="first--section__start">
+          <div class="first--section__left">
+            <h1>
+              Reach your body goals at
+              <span>BFitness</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Corporis, inventore dolorum sint possimus tempore voluptatum nisi
+              culpa cupiditate reprehenderit labore.
+            </p>
+            <a class="learn--more" href="#">Learn more ↓</a>
+          </div>
+          <div class="first--section__right">
+            <img src="./Images/biceps-img.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+      <!-- SECOND SECTION -->
+      <section id = "section2" class="second--section section">
+        <h1>Everything you need to know about us</h1>
+        <div class="second--section__images">
+          <div class="blured-images" data-track = 0>
+            <img
+              src="./Images/training-zone.png"
+              alt=""
+              class="training-zone"
+            />
+            <h1>Training zone</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="blured-images" data-track = 1>
+            <img src="./Images/cardio-zone.png" alt="" class="cardio-zone" />
+            <h1>Cardio zone</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="blured-images" data-track = 2>
+            <img src="./Images/gropu-hall.png" alt="" class="group-hall" />
+            <h1>Group hall</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- THIRD SECTION -->
+      <section id = "section3" class="third--section section">
+        <h1>Membership Plans</h1>
+        <p class="third--section-first-p">Choose best plan for you</p>
+        <!-- RADIO BUTTON -->
+        <div class="third--section__month__year">
+          <p>Month</p>
+          <label class="radio-label">
+            <input  type="checkbox" class="third--section__radio"></input>
+            <span class="slider round"></span>
+          </label>
+          <p>Year</p>
+        </div>
+        <div class="third--section__cards">
+          <!-- FIRST CARD -->
+          <div class="first--card third--section__card">
+            <h3><span>Student</span> Plan</h3>
+            <p id = "third--section__p"><span id = "third--section__span">€25</span>/ Month</p>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Free wi-fi</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Unlimited gym access</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Free fitness consultation</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>10% off drinks</p>
+            </div>
+            <button class="third--section__btn btn">Join now</button>
+          </div>
+
+          <!-- SECOND CARD -->
+          <div class="second--card third--section__card">
+            <h3><span>Basic </span>Plan</h3>
+            <p id = "third--section__p"><span id = "third--section__span">€35</span>/ Month</p>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Free wi-fi</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Unlimited gym access</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Free fitness consultation</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>10% off drinks</p>
+            </div>
+            <button class="third--section__btn btn">Join now</button>
+          </div>
+
+          <!-- THIRD CARD -->
+          <div class="third--card third--section__card">
+            <h3><span >Premium </span>Plan</h3>
+            <p id = "third--section__p"><span id = "third--section__span">€60</span>/ Month</p>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>All features</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>35% off drinks</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>Personal trainers</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>All training programs</p>
+            </div>
+            <div class="third--section__text">
+              <img src="./Images/true-img.png" alt="" />
+              <p>35% off clothes & equipments</p>
+            </div>
+            <button class="third--section__btn btn">Join now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOURTH SECTION -->
+      <section id = "section4" class="section fourth--section">
+    
+      <div class="pre--fourth--section">
+        <h2 class="fourth--section__h2">Not sure yet?</h2>
+      <h1 class="fourth--section__h1">There is what our members say about us</h1>
+      </div>
+      <div class="fourth--section__cards">
+        <div class="fourth--section__card first-card">
+          <div class="inside-card">
+            <h2>I’ve been to a few different places before but nothing compares to this.</h2>
+          <div class="fourth--section__slider__about">
+            <img class="face" src="./Images/first-face.jpg" alt="">
+            <div class="slider__name">
+              <p>Aarav Lynn</p>
+              <p>Belgrade, Serbia</p>
+            </div>
+            <div class="stars">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+            </div>
+          </div>
+        </div>
+          </div>
+        <div class="fourth--section__card second-card">
+          <div class="inside-card">
+            <h2>This fitness center is absolutely beautiful!</h2>
+          <div class="fourth--section__slider__about">
+            <img class="face" src="./Images/second-face.jpg" alt="">
+            <div class="slider__name">
+              <p>Milka Layan</p>
+              <p>Belgrade, Serbia</p>
+            </div>
+            <div class="stars">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+            </div>
+          </div>
+        </div>
+          </div>
+        <div class="fourth--section__card third-card">
+          <div class="inside-card">
+            <h2>This fitness center have everything you need, It's literally perfect!</h2>
+          <div class="fourth--section__slider__about">
+            <img class="face" src="./Images/third-face.jpg" alt="">
+            <div class="slider__name">
+              <p>Alex Marie</p>
+              <p>Belgrade, Serbia</p>
+            </div>
+            <div class="stars">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+              <img src="./Images/star.png" alt="" class="star">
+            </div>
+          </div>
+        </div>
+          </div>
+          <div>
+            
+        <button class="slider__btn fourth--section__left">←</button>
+        <button class="slider__btn fourth--section__right">→</button>
+          </div>
+        <!-- <div class="dots">
+          <div class="dots_dot"></div>
+          <div class="dots_dot"></div>
+          <div class="dots_dot"></div>
+        </div> -->
+      </div>
+      </section>
+
+      <!-- FIFTH SECTION -->
+      <section id = "section5" class="section fifth-section">
+        <h1>Contact Us</h1>
+          <form class="form" action="">
+            <input required type="text" class="name-input input" autocomplete="off" name = "name" >
+            <label class="label" for="name">
+              <span>name</span>
+            </label>
+            <input required type="text" class="last-name-input" autocomplete="off" name = "last-name" >
+            <label class="label" for="last-name">
+              <span>last name</span>
+            </label>
+            <input required type="text" class="email-input" autocomplete="off" name = "email" >
+            <label class="label" for="email">
+              <span>email</span>
+            </label>
+            <input required type="text" class="confirm-email" autocomplete="off" name = "confirm-email" >
+            <label class="label" for="confirm-email">
+              <span>confirm email</span>
+            </label>
+            <input required type="text" class="message" autocomplete="off" name = "message" > 
+            <label class="label" for="message">
+              <span>message</span>
+            </label>
+   
+          </form>
+        <button  class="fifth--section__button">Send</button>
+      </section>
+
+    </main>
+    <!-- JS -->
+    <script src="./app.js"></script>
+  </body>
+</html>

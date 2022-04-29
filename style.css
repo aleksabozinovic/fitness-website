@@ -264,7 +264,8 @@ nav.sticky {
   height: 26px;
   width: 26px;
   left: 4px;
-  bottom: 4px;
+  top: 50%;
+  transform: translate(0, -50%);
   background-color: var(--primary-color);
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -713,6 +714,11 @@ nav .shown {
     left: 9%;
     right: auto;
   }
+  .second--section__images {
+    width: 120%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
 }
 @media only screen and (max-width: 832px) {
   .second--section__images div {
@@ -721,5 +727,47 @@ nav .shown {
   .second--section__images img {
     min-width: 100%;
     max-width: 100%;
+  }
+
+  .fourth--section__cards {
+    min-width: 120%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    min-height: 500px;
+  }
+
+  .fourth--section__slider__about {
+    flex-direction: column;
+  }
+  .face,
+  .slider__name {
+    margin-right: 0;
+  }
+  .third--section-first-p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 584px) {
+  section,
+  nav {
+    padding: 0 3rem;
+  }
+  .first--section__left h1 {
+    max-width: 100%;
+  }
+  .second--section__images {
+    width: 115%;
+  }
+  .second--section__images div p {
+    font-size: 8px;
+  }
+  .third--section h1 {
+    font-size: 30px;
+  }
+  .third--section p {
+    font-size: 18px;
+  }
+  .slider {
+    height: 2rem;
   }
 }

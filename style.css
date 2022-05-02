@@ -278,9 +278,9 @@ nav.sticky {
   box-shadow: 0 0 1px var(--primary-color);
 }
 .third--section input:checked + .slider:before {
-  -webkit-transform: translateX(36px);
-  -ms-transform: translateX(36px);
-  transform: translateX(36px);
+  -webkit-transform: translate(36px, -50%);
+  -ms-transform: translate(36px, -50%);
+  transform: translate(36px, -50%);
 }
 .third--section__cards {
   display: grid;
@@ -672,6 +672,7 @@ nav .shown {
     opacity: 1;
     display: block;
     pointer-events: all;
+    top: 8px;
   }
   .second--section__images div h1 {
     font-size: 20px;
@@ -766,6 +767,7 @@ nav .shown {
   }
   .first--section__left h1 {
     max-width: 100%;
+    font-size: 44px;
   }
   .second--section__images {
     width: 115%;
@@ -795,6 +797,20 @@ nav .shown {
   .fifth-section form {
     width: 300px;
   }
+  .second--section {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .second--section__images div:nth-child(1) h1 {
+    right: 10px;
+  }
+  .second--section__images div:nth-child(2) h1 {
+    left: 5%;
+  }
+  .second--section__images div:nth-child(3) h1 {
+    right: 28px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .second--section {
@@ -816,5 +832,11 @@ nav .shown {
     width: 315px;
     left: 50%;
     transform: translate(-50%, 0);
+  }
+  .second--section {
+    margin-top: 0;
+  }
+  .second--section__images div h1 {
+    font-size: 12px;
   }
 }
